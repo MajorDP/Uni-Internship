@@ -1,8 +1,109 @@
 import { useState } from "react";
 import Navigation from "./components/Navigation";
+import CasinoCard from "./components/CasinoCard";
+import img1 from "../public/img1.png";
+import img2 from "../public/img2.png";
+import img3 from "../public/img3.jpeg";
+import { ICasino } from "./interfaces/Casino";
 
 function App() {
   const [selectedOption, setSelectedOption] = useState(0);
+
+  const casinosList: ICasino[] = [
+    {
+      img: img1,
+      name: "Cadabrus Casino",
+      rating: 75,
+      sponsors: [],
+      welcomeBonus: "$200 + 200 Free Spins",
+      casinodetails: {
+        onlineSince: 2019,
+        foundedDate: 2022,
+        license: "MGA",
+        website: "octocasino.com",
+      },
+      payments: {
+        minDeposit: 20,
+        minWithdrawal: 50,
+        maxWithdrawal: 50000,
+        wager: 50,
+      },
+      pros: [
+        "Instant deposits",
+        "Free casino deposit",
+        "Simple and straightforward",
+        "Instant deposits",
+      ],
+      cons: [
+        "Instant deposits",
+        "Free casino deposit",
+        "Simple and straightforward",
+        "Instant deposits",
+      ],
+    },
+    {
+      img: img2,
+      name: "Bet365",
+      rating: 50,
+      sponsors: [],
+      welcomeBonus: "$200 + 200 Free Spins",
+      casinodetails: {
+        onlineSince: 2019,
+        foundedDate: 2022,
+        license: "MGA",
+        website: "octocasino.com",
+      },
+      payments: {
+        minDeposit: 20,
+        minWithdrawal: 20,
+        maxWithdrawal: 20,
+        wager: 20,
+      },
+      pros: [
+        "Instant deposits",
+        "Free casino deposit",
+        "Simple and straightforward",
+        "Instant deposits",
+      ],
+      cons: [
+        "Instant deposits",
+        "Free casino deposit",
+        "Simple and straightforward",
+        "Instant deposits",
+      ],
+    },
+    {
+      img: img3,
+      name: "LeoVegas",
+      rating: 40,
+      sponsors: [],
+      welcomeBonus: "$200 + 200 Free Spins",
+      casinodetails: {
+        onlineSince: 2019,
+        foundedDate: 2022,
+        license: "MGA",
+        website: "octocasino.com",
+      },
+      payments: {
+        minDeposit: 20,
+        minWithdrawal: 20,
+        maxWithdrawal: 20,
+        wager: 20,
+      },
+      pros: [
+        "Instant deposits",
+        "Free casino deposit",
+        "Simple and straightforward",
+        "Instant deposits",
+      ],
+      cons: [
+        "Instant deposits",
+        "Free casino deposit",
+        "Simple and straightforward",
+        "Instant deposits",
+      ],
+    },
+  ];
   return (
     <div className="py-3 px-5">
       <Navigation />
@@ -22,7 +123,7 @@ function App() {
         <h1 className="text-center mt-10 text-4xl font-bold">
           Best Offshore Casinos
         </h1>
-        <p className="w-1/2 text-center m-auto mt-5">
+        <p className="w-full xl:w-1/2 text-xs xl:text-base text-center m-auto mt-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam." Lorem ipsum dolor sit amet, consectetur adipiscing{" "}
@@ -30,11 +131,11 @@ function App() {
             Read more
           </span>
         </p>
-        <div className="bg-white rounded-full w-fit m-auto flex flex-row p-3 justify-between gap-4 shadow-lg mt-10">
+        <div className="bg-white rounded-xl xl:rounded-full w-full xl:w-fit mx-auto flex flex-wrap xl:flex-row py-3 px-4 justify-center xl:justify-between shadow-lg mt-10">
           <p
             className={`${
               selectedOption === 0 && "bg-[#1BA7FF] text-white"
-            } rounded-full px-4 py-2 cursor-pointer`}
+            }  rounded-xl xl:rounded-full px-4 py-2 cursor-pointer text-sm sm:text-base`}
             onClick={() => setSelectedOption(0)}
           >
             Same day payouts
@@ -43,7 +144,7 @@ function App() {
           <p
             className={`${
               selectedOption === 1 && "bg-[#1BA7FF] text-white"
-            } rounded-full px-4 py-2 cursor-pointer`}
+            }  rounded-xl xl:rounded-full px-4 py-2 cursor-pointer text-sm sm:text-base`}
             onClick={() => setSelectedOption(1)}
           >
             Within 48 hours
@@ -52,7 +153,7 @@ function App() {
           <p
             className={`${
               selectedOption === 2 && "bg-[#1BA7FF] text-white"
-            } rounded-full px-4 py-2 cursor-pointer`}
+            }  rounded-xl xl:rounded-full px-4 py-2 cursor-pointer text-sm sm:text-base`}
             onClick={() => setSelectedOption(2)}
           >
             Within 7 days
@@ -60,27 +161,11 @@ function App() {
         </div>
       </div>
 
-      <div className="w-[95%] m-auto">
-        <ul>
-          <li className="flex flex-row w-full h-fit m-auto rounded-xl shadow-xl text-sm">
-            <div className="p-4">
-              <img
-                src="./public/img1.png"
-                className="w-[14rem] h-[10rem] rounded-xl"
-              />
-            </div>
-            <div className="flex flex-col justify-between p-10 w-[25%]">
-              <div className="flex flex-row justify-between w-full">
-                <p className="font-semibold">Caddabrus Casino</p>
-                <p>Very Good</p>
-              </div>
-              <div className="w-full max-w-xs bg-gray-200 rounded-lg overflow-hidden">
-                <div className="bg-green-500 h-3 rounded-lg transition-all w-[75%]"></div>
-              </div>
-
-              <div>list</div>
-            </div>
-          </li>
+      <div className="w-full xl:w-[95%] m-auto">
+        <ul className="flex flex-col">
+          {casinosList.map((casino) => (
+            <CasinoCard casino={casino} />
+          ))}
         </ul>
       </div>
     </div>
