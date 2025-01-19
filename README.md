@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
+**_Casino Information Website - Uni internship_**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**_Project Description_**
 
-Currently, two official plugins are available:
+!!This project is a task issued by a local company for my uni internship!!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This website provides comprehensive and up-to-date information about online casinos, designed to help users make informed decisions when choosing the best platform for their gambling needs. The site features detailed reviews, bonus offers, payment methods, licensing information, and pros and cons of various online casinos. With a user-friendly interface and responsive design, the platform is accessible across all devices.
 
-## Expanding the ESLint configuration
+**_🚀 Features:_**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Casino Reviews: In-depth reviews with key details such as licensing, bonuses, payment options, and user ratings:
 
-- Configure the top-level `parserOptions` property like this:
+  - Welcome Bonuses: A curated list of the best bonuses, including free spins and deposit matches.
+  - Casino Details: Information on each casino’s license, founding date, website link, and more.
+  - Payment Methods: Clear insights into minimum deposits, withdrawal limits, and wagering requirements.
+  - Pros and Cons: A quick overview of the advantages and drawbacks of each casino.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Responsive Design: Optimized for mobile, tablet, and desktop users.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+**_👨‍💻 Technologies Used:_**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Frontend: React.js with TypeScript for building interactive user interfaces.
+- Styling: Tailwind CSS for a modern, responsive design.
+- State Management: React hooks for managing component states (e.g., selected filters).
+- Icons & Graphics: SVG icons for visual appeal and clarity.
