@@ -5,6 +5,9 @@ import img1 from "../public/img1.png";
 import img2 from "../public/img2.png";
 import img3 from "../public/img3.jpeg";
 import { ICasino } from "./interfaces/Casino";
+import Filters from "./components/Filters";
+import CashoutSteps from "./components/CashoutSteps";
+import PayoutsTested from "./components/PayoutsTested";
 
 function App() {
   const [selectedOption, setSelectedOption] = useState(0);
@@ -131,34 +134,10 @@ function App() {
             Read more
           </span>
         </p>
-        <div className="bg-white rounded-xl xl:rounded-full w-full xl:w-fit mx-auto flex flex-wrap xl:flex-row py-3 px-4 justify-center xl:justify-between shadow-lg mt-10">
-          <p
-            className={`${
-              selectedOption === 0 && "bg-[#1BA7FF] text-white"
-            }  rounded-xl xl:rounded-full px-4 py-2 cursor-pointer text-sm sm:text-base`}
-            onClick={() => setSelectedOption(0)}
-          >
-            Same day payouts
-          </p>
-
-          <p
-            className={`${
-              selectedOption === 1 && "bg-[#1BA7FF] text-white"
-            }  rounded-xl xl:rounded-full px-4 py-2 cursor-pointer text-sm sm:text-base`}
-            onClick={() => setSelectedOption(1)}
-          >
-            Within 48 hours
-          </p>
-
-          <p
-            className={`${
-              selectedOption === 2 && "bg-[#1BA7FF] text-white"
-            }  rounded-xl xl:rounded-full px-4 py-2 cursor-pointer text-sm sm:text-base`}
-            onClick={() => setSelectedOption(2)}
-          >
-            Within 7 days
-          </p>
-        </div>
+        <Filters
+          selectedOption={selectedOption}
+          setSelectedOption={setSelectedOption}
+        />
       </div>
 
       <div className="w-full xl:w-[95%] m-auto">
@@ -168,6 +147,8 @@ function App() {
           ))}
         </ul>
       </div>
+      <PayoutsTested />
+      <CashoutSteps />
     </div>
   );
 }
