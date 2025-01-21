@@ -14,6 +14,12 @@ import WireFrame from "./components/WireFrame";
 import BulletElements from "./components/BulletElements";
 import WPComponent from "./components/WPComponent";
 import LeftAlignedText from "./components/LeftAlignedText";
+import FAQ from "./components/FAQ";
+import HowToChoose from "./components/HowToChoose";
+import CasinoProsAndCons from "./components/CasinoProsAndCons";
+import StickyTableOfContents from "./components/StickyTableOfContents";
+import RecommendedCasinos from "./components/RecommendedCasinos";
+import Footer from "./components/Footer";
 
 function App() {
   const [selectedOption, setSelectedOption] = useState(0);
@@ -193,6 +199,12 @@ function App() {
           versions from the 1914 translation by H. Rackham.
         </p>
       </div>
+      <FAQ />
+      <HowToChoose />
+      <CasinoProsAndCons />
+      <StickyTableOfContents />
+      <RecommendedCasinos />
+      <Footer />
     </div>
   );
 }

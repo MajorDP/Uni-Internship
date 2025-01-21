@@ -7,7 +7,7 @@ function WireFrame() {
         </p>
         <h1 className="text-3xl md:text-4xl mt-4 md:mt-5">
           It's easy to create pages Using Our
-          <span className="bg-gradient-to-t from-yellow-400 to-transparent">
+          <span className="ml-2 bg-gradient-to-t from-yellow-400 to-transparent">
             {" "}
             WireFrame
           </span>
