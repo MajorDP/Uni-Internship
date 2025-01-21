@@ -109,7 +109,7 @@ function StickyTableOfContents() {
           versions from the 1914 translation by H. Rackham.
         </p>
 
-        <h1 className=" text-start text-[20px] sm:text-[22px] my-10 font-bold text-[#0A0F4F]">
+        <h1 className=" text-start text-[20px] sm:text-[22px] mt-10 mb-5 font-bold text-[#0A0F4F]">
           What is child identity Theft?
         </h1>
         <p className="text-[16px]">

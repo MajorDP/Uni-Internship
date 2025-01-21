@@ -20,6 +20,7 @@ import CasinoProsAndCons from "./components/CasinoProsAndCons";
 import StickyTableOfContents from "./components/StickyTableOfContents";
 import RecommendedCasinos from "./components/RecommendedCasinos";
 import Footer from "./components/Footer";
+import CasinoReview from "./components/CasinoReview";
 
 function App() {
   const [selectedOption, setSelectedOption] = useState(0);
@@ -201,6 +202,8 @@ function App() {
       </div>
       <FAQ />
       <HowToChoose />
+      <CasinoReview />
+      <CasinoReview />
       <CasinoProsAndCons />
       <StickyTableOfContents />
       <RecommendedCasinos />
