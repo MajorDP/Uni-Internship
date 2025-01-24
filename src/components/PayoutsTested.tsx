@@ -29,8 +29,8 @@ function PayoutsTested() {
             </g>
           </g>
         </svg>
-        <h1 className="font-bold">Payouts tested</h1>
-        <p className="w-[75%] text-xs lg:text-sm text-center xl:text-start">
+        <h1 className="font-bold mt-3 sm:mt-0">Payouts tested</h1>
+        <p className="w-[75%] text-[16px] mt-2 sm:mt-0 sm:text-md lg:text-sm text-center xl:text-start">
           A book or other written or printed work, regarded in terms of its
           content rather than its physical form.
         </p>
@@ -63,8 +63,8 @@ function PayoutsTested() {
             </g>
           </g>
         </svg>
-        <h1 className="font-bold">Payouts tested</h1>
-        <p className="w-[75%] text-xs lg:text-sm text-center xl:text-start">
+        <h1 className="font-bold mt-3">Payouts tested</h1>
+        <p className="w-[75%] text-[16px] mt-2 sm:mt-0 sm:text-md lg:text-sm text-center xl:text-start">
           A book or other written or printed work, regarded in terms of its
           content rather than its physical form.
         </p>
@@ -97,8 +97,8 @@ function PayoutsTested() {
             </g>
           </g>
         </svg>
-        <h1 className="font-bold">Payouts tested</h1>
-        <p className="w-[75%] text-xs lg:text-sm text-center xl:text-start">
+        <h1 className="font-bold mt-3">Payouts tested</h1>
+        <p className="w-[75%] text-[16px] mt-2 sm:mt-0 sm:text-md lg:text-sm text-center xl:text-start">
           A book or other written or printed work, regarded in terms of its
           content rather than its physical form.
         </p>

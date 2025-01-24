@@ -1,15 +1,15 @@
 function Payments() {
   return (
-    <div className="flex flex-col lg:flex-row justify-between mt-32 w-[60%] lg:w-[90%] bg-red-100 m-auto bg-gradient-to-tr from-blue-600 to-teal-200 p-10 h-fit rounded-xl">
+    <div className="flex flex-col lg:flex-row justify-between mt-32 w-full lg:w-[90%] bg-red-100 m-auto bg-gradient-to-tr from-blue-600 to-teal-200 p-10 h-fit rounded-xl">
       <div className="flex flex-col w-full md:w-[60%] lg:w-[40%] text-white lg:pr-10 m-auto text-center lg:text-start">
-        <h1 className="text-sm md:text-2xl  font-bold mb-5 text-center lg:text-start">
+        <h1 className="text-lg md:text-2xl  font-bold mb-5 text-center lg:text-start">
           Payments
         </h1>
-        <p className="text-xs mb-5 lg:mb-0 md:text-base leading-relaxed">
+        <p className="text-[18px] mb-5 lg:mb-0 md:text-base leading-relaxed">
           Curabitur arcu erat, ccumsan id imperdiet et, porttitor at sem.
         </p>
       </div>
-      <div className="flex flex-col xl:flex-row w-full h-[20rem] lg:h-[15rem] xl:h-[10rem] justify-between items-center">
+      <div className="flex flex-col xl:flex-row w-[90%] m-auto h-[20rem] lg:h-[15rem] xl:h-[10rem] justify-between items-center">
         <svg
           style={{ width: "100%" }}
           width="124"

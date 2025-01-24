@@ -5,8 +5,8 @@ interface ICasinoCardProps {
 }
 function CasinoInfo({ casino }: ICasinoCardProps) {
   return (
-    <div className="flex flex-col md:grid lg:flex lg:flex-row bg-white shadow-xl mt-2 px-1 py-2 rounded-xl text-[14px]">
-      <div className="lg:w-[30%] p-6">
+    <div className="flex flex-col md:grid lg:flex lg:flex-row bg-white shadow-xl mt-2 px-1 py-2 rounded-xl text-[16px]">
+      <div className="lg:w-[30%] p-2">
         <h3 className="text-lg mb-4">ℹ Casino Details</h3>
         <p className="bg-gray-50 flex justify-between p-2 rounded-xl">
           <span>Online Since</span>{" "}
@@ -22,7 +22,7 @@ function CasinoInfo({ casino }: ICasinoCardProps) {
           <span>Website</span> <span>{casino.casinodetails.website}</span>
         </p>
       </div>
-      <div className="lg:w-[30%] p-6">
+      <div className="lg:w-[30%] p-2">
         <h3 className="text-lg mb-4">💸 Payments</h3>
         <p className="bg-gray-50 flex justify-between p-2 rounded-xl">
           <span>Min Deposit</span> <span>${casino.payments.minDeposit}</span>
@@ -39,7 +39,7 @@ function CasinoInfo({ casino }: ICasinoCardProps) {
           <span>Wagering</span> <span>x{casino.payments.wager}</span>
         </p>
       </div>
-      <div className="w-full lg:w-[40%] p-6 flex flex-col sm:flex-row justify-between m-auto">
+      <div className="w-full lg:w-[40%] p-2 flex flex-col sm:flex-row justify-between m-auto">
         <div className=" flex flex-col mb-5 xl:mb-0">
           <h3 className="text-[#00BE6F] font-bold mb-2">Pros</h3>
           {casino.pros.map((pro) => (

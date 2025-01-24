@@ -6,7 +6,7 @@ function CashoutSteps() {
     <section className="w-full xl:w-[75%] m-auto mt-24 flex flex-col xl:flex-row items-center justify-center">
       <div
         className={`w-full xl:w-[40%] p-5 xl:p-10 ${
-          isOpen ? "translate-x-0" : "translate-x-1/4"
+          isOpen ? "translate-x-0" : "xl:translate-x-1/4"
         } transition-all duration-300 `}
       >
         <h1 className="font-bold text-[28px] sm:text-[34px] text-center xl:text-start">

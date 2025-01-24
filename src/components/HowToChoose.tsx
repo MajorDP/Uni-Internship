@@ -11,7 +11,7 @@ function HowToChoose() {
         Check out what verifcation checks our top reviewers took into account
         while evaluating the best online casino sites in Japan
       </h3>
-      <div className="flex flex-row items-center justify-between w-full sm:w-[75%] xl:w-[50%] m-auto mt-10">
+      <div className="flex flex-col sm:flex-row items-center justify-between w-full sm:w-[75%] xl:w-[50%] m-auto mt-10">
         <div className=" flex flex-row">
           <div className="h-full text-3xl">🕑</div>
           <div className="flex flex-col">
@@ -19,7 +19,7 @@ function HowToChoose() {
             <p className="text-[16px] font-semibold">00:30</p>
           </div>
         </div>
-        <div className=" flex flex-row">
+        <div className=" flex flex-row ">
           <div className="h-full text-3xl">💻</div>
           <div className="flex flex-col">
             <p className="text-[12px]">Time needed</p>
@@ -687,7 +687,7 @@ function HowToChoose() {
           <p className="font-semibold text-center sm:text-start my-3 text-[18px] w-full">
             Safety Audit
           </p>
-          <p className="w-fit text-center sm:text-start text-[14px] mb-10 xl:mb-0">
+          <p className="w-fit text-center sm:text-start text-[16px] mb-10 xl:mb-0">
             At vero eos et accusamus et iusto odio dignissimos ducimus qui
             blanditiis praesentium voluptatum deleniti atque corrupti quos
             dolores et quas molestias excepturi sint occaecati.
@@ -1621,10 +1621,10 @@ function HowToChoose() {
               </clipPath>
             </defs>
           </svg>
-          <p className="font-semibold text-center sm:text-start my-3 text-[18px]">
+          <p className="font-semibold text-center sm:text-start my-3 text-[20px]">
             Safety Audit
           </p>
-          <p className="w-fit text-center sm:text-start text-[14px] mb-10 xl:mb-0">
+          <p className="w-fit text-center sm:text-start text-[16px] mb-10 xl:mb-0">
             At vero eos et accusamus et iusto odio dignissimos ducimus qui
             blanditiis praesentium voluptatum deleniti atque corrupti quos
             dolores et quas molestias excepturi sint occaecati.
@@ -2278,10 +2278,10 @@ function HowToChoose() {
               </clipPath>
             </defs>
           </svg>
-          <p className="font-semibold text-center sm:text-start my-3 text-[18px]">
+          <p className="font-semibold text-center sm:text-start my-3 text-[20px]">
             Safety Audit
           </p>
-          <p className="w-fit text-center sm:text-start text-[14px] mb-10 xl:mb-0">
+          <p className="w-fit text-center sm:text-start text-[16px] mb-10 xl:mb-0">
             At vero eos et accusamus et iusto odio dignissimos ducimus qui
             blanditiis praesentium voluptatum deleniti atque corrupti quos
             dolores et quas molestias excepturi sint occaecati.
@@ -3215,10 +3215,10 @@ function HowToChoose() {
               </clipPath>
             </defs>
           </svg>
-          <p className="font-semibold text-center sm:text-start my-3 text-[18px]">
+          <p className="font-semibold text-center sm:text-start my-3 text-[20px]">
             Safety Audit
           </p>
-          <p className="w-fit text-center sm:text-start text-[14px] mb-10 xl:mb-0">
+          <p className="w-fit text-center sm:text-start text-[16px] mb-10 xl:mb-0">
             At vero eos et accusamus et iusto odio dignissimos ducimus qui
             blanditiis praesentium voluptatum deleniti atque corrupti quos
             dolores et quas molestias excepturi sint occaecati.

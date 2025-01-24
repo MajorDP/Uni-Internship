@@ -8,7 +8,7 @@ function StickyTableOfContents() {
         <h3 className="font-semibold text-center lg:text-start text-[16px] xl:text-[18px]">
           Table of Contents
         </h3>
-        <ul className="p-3 text-[13px] xl:text-[16px] text-center lg:text-start">
+        <ul className="p-3 text-[16px] xl:text-[16px] text-center lg:text-start">
           <li
             className={`${
               selected === 0 && "font-semibold"

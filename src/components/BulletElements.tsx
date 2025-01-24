@@ -18,7 +18,7 @@ function BulletElements() {
           Cras ultricies ligula sed magna dictum porta. Quisque velit nisi,
           pretium ut lacinia in, elementum id enim.
         </p>
-        <div className="flex flex-col md:flex-row justify-between w-full xl:w-[80%] md:text-[13px] lg:text-[14px] xl:text-base lg:w-full items-center md:items-baseline">
+        <div className="flex flex-col md:flex-row justify-between w-full md:text-[13px] lg:text-[14px] xl:text-base lg:w-full items-center md:items-baseline">
           <ul className="flex flex-col justify-between h-32 mb-2 md:mb-0">
             <li>
               <span className="text-blue-400">☑</span> 60+ Hero Sections

@@ -14,7 +14,7 @@ function LeftAlignedText() {
             at Hampden-Sydney College in Virginia, looked up one of the more
             obscure Latin{" "}
           </p>
-          <ul className="list-disc list-inside mb-5">
+          <ul className="list-disc list-inside mb-5 w-[90%]">
             <li>
               Etiam tempus arcu non tortor facilisis, id euismod libero
               fringilla
