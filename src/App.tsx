@@ -21,7 +21,7 @@ import StickyTableOfContents from "./components/StickyTableOfContents";
 import RecommendedCasinos from "./components/RecommendedCasinos";
 import Footer from "./components/Footer";
 import CasinoReview from "./components/CasinoReview";
-import Text from "./components/text";
+import Text from "./components/Text";
 
 function App() {
   const [selectedOption, setSelectedOption] = useState(0);
