@@ -17,7 +17,7 @@ function CasinoCard({ casino }: ICasinoCardProps) {
             className="w-full h-[10rem] rounded-xl object-cover"
           />
         </div>
-        <div className="flex flex-col justify-around p-6 w-full items-center lg:w-[30%]">
+        <div className="flex flex-col justify-around p-6 w-full items-start md:items-center lg:items-start lg:w-[40%] xl:w-[30%]">
           <div className="flex flex-col xl:flex-row justify-between items-center w-full mb-4">
             <p className="font-semibold text-xs xl:text-xl">{casino.name}</p>
             <p
@@ -53,14 +53,14 @@ function CasinoCard({ casino }: ICasinoCardProps) {
               } h-3 rounded-lg transition-all w-[${casino.rating}%]`}
             ></div>
           </div>
-          <div className="text-sm flex flex-col  justify-center items-center w-[100%] pl-6 md:flex-row md:text-base lg:text-lg">
+          <div className="text-sm mt-2 flex sm:flex-nowrap flex-wrap flex-row justify-center xl:justify-start items-center h-[4rem] w-full md:text-base lg:text-lg">
             <svg
               width="30"
               height="20"
               viewBox="0 0 30 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-16 h-16 mr-2"
+              className="w-[3rem] sm:w-[4rem] lg:w-[10rem] xl:w-[3rem] h-full mr-2"
             >
               <rect
                 y="0.0636597"
@@ -80,7 +80,7 @@ function CasinoCard({ casino }: ICasinoCardProps) {
               viewBox="0 0 30 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-16 h-16 mr-2"
+              className="w-[3rem] sm:w-[4rem] lg:w-[10rem] xl:w-[3rem] h-full mr-2"
             >
               <rect
                 x="0.474609"
@@ -103,7 +103,7 @@ function CasinoCard({ casino }: ICasinoCardProps) {
               viewBox="0 0 30 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-16 h-16 mr-2"
+              className="w-[3rem] sm:w-[4rem] lg:w-[10rem] xl:w-[3rem] h-full mr-2"
             >
               <rect
                 x="0.949707"
@@ -132,7 +132,7 @@ function CasinoCard({ casino }: ICasinoCardProps) {
               viewBox="0 0 30 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-16 h-16 mr-2"
+              className="w-[3rem] sm:w-[4rem] lg:w-[10rem] xl:w-[3rem] h-full mr-2"
             >
               <rect
                 x="0.424316"
@@ -165,7 +165,7 @@ function CasinoCard({ casino }: ICasinoCardProps) {
               viewBox="0 0 30 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-16 h-16 mr-2"
+              className="w-[3rem] sm:w-[4rem] lg:w-[10rem] xl:w-[3rem] h-full mr-2"
             >
               <rect
                 x="0.899414"
@@ -198,7 +198,7 @@ function CasinoCard({ casino }: ICasinoCardProps) {
               viewBox="0 0 30 20"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-16 h-16 mr-2"
+              className="w-[3rem] sm:w-[4rem] lg:w-[10rem] xl:w-[3rem] h-full mr-2"
             >
               <rect
                 x="0.374023"
@@ -213,13 +213,12 @@ function CasinoCard({ casino }: ICasinoCardProps) {
                 fill="white"
               />
             </svg>
-            <p className="text-[#4C0202] font-medium bg-[#E5E9F3] w-8 md:w-16 md:h-12 h-8 flex items-center justify-center py-0 my-0 text-[15px] text-center rounded-md">
+            <p className="text-[#4C0202] font-medium bg-[#E5E9F3] w-[3rem] sm:w-[4rem] xl:w-[3rem] p-2 xl:py-3 xl:text-[14px] lg:text-[12px] h-[2rem] sm:h-[2.6rem] lg:h-[1.4rem] xl:h-[2rem] flex items-center justify-center py-0 my-0 text-[15px] text-center rounded-md">
               <span>20+</span>
             </p>
           </div>
         </div>
-        <div className="w-px h-[10rem] my-6 bg-gray-200"></div>
-        <div className="flex flex-col lg:flex-row lg:w-[40%] justify-between items-center mt-4 md:mt-0">
+        <div className="flex flex-col lg:flex-row lg:w-[40%] justify-between items-center mt-14 sm:mt-4 md:mt-0">
           <div className="flex flex-col p-6 w-full md:w-[90%] h-[70%] lg:h-[60%] xl:h-[50%] justify-between xl:mb-4">
             <p className="text-center lg:text-start text-xs xl:text-sm">
               Welcome bonus

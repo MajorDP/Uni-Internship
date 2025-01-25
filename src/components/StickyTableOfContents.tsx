@@ -60,7 +60,7 @@ function StickyTableOfContents() {
           <li
             className={`${
               selected === 6 && "font-semibold"
-            } m-1 cursor-pointer`}
+            } m-1 cursor-pointer text-nowrap sm:text-wrap`}
             onClick={() => setSelected(6)}
           >
             Curacao licensed casinos

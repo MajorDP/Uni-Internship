@@ -27,7 +27,7 @@ function HowToChoose() {
           </div>
         </div>
         <div className=" flex flex-row">
-          <div className="h-full text-3xl">✉</div>
+          <div className="h-full text-4xl">✉</div>
           <div className="flex flex-col">
             <p className="text-[12px]">Time needed</p>
             <p className="text-[16px] font-semibold">00:30</p>

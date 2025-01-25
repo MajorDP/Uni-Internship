@@ -137,10 +137,10 @@ function App() {
           </p>
         </div>
 
-        <h1 className="text-center mt-10 text-4xl font-bold">
+        <h1 className="text-center mt-10 text-[44px] sm:text-4xl font-bold">
           Best Offshore Casinos
         </h1>
-        <p className="w-full xl:w-1/2 text-xs xl:text-base text-center m-auto mt-5">
+        <p className="w-full xl:w-1/2 text-[17px] xl:text-base text-center m-auto mt-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam." Lorem ipsum dolor sit amet, consectetur adipiscing{" "}
